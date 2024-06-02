@@ -1,7 +1,6 @@
-baseURL = 'https://thedenisnikulin.github.io/blog/'
+baseURL = 'https://thedenisnikulin.github.io/'
 languageCode = 'en-us'
 title = '🦆✨tinyblog'
-# title = 'tinyblog🐝🐌🦆🍻🍺🍤🐝🍯'
 theme = 'PaperMod'
 
 [params]
