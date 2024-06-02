@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://thedenisnikulin.github.io/blog/'
 languageCode = 'en-us'
-title = '🦆tinyblog'
+title = '🦆✨tinyblog'
 # title = 'tinyblog🐝🐌🦆🍻🍺🍤🐝🍯'
 theme = 'PaperMod'
 
@@ -10,8 +10,8 @@ ShowReadingTime = true
 ShowCodeCopyButtons = true
 
 [params.homeInfoParams]
-title = '🦆 My Tiny Writings'
-content = 'I write sometimes about my thoughts on programming, software design, and life'
+title = '🦆✨ My Tiny Writings'
+content = 'I sometimes write my thoughts on programming, software design, and life'
 
 [[params.socialIcons]]
 name = "GitHub"

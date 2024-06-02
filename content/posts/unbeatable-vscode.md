@@ -1,7 +1,7 @@
 +++
 title = 'When VS Code is unbeatable'
 date = 2024-06-01T11:17:24+03:00
-draft = true
+draft = false
 tags = ["tools", "editor"]
 +++
 
