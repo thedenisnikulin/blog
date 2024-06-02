@@ -10,7 +10,7 @@ ShowReadingTime = true
 ShowCodeCopyButtons = true
 
 [params.homeInfoParams]
-title = '🦆✨ My Tiny Writings'
+title = "🦆 tiny writings of rw_panic0_0"
 content = 'I sometimes write my thoughts on programming, software design, and life'
 
 [[params.socialIcons]]
