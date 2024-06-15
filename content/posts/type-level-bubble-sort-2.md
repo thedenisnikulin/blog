@@ -6,7 +6,7 @@ draft = false
 
 Hello everyone! In the [previous post from this series](https://dev.to/thedenisnikulin/type-level-bubble-sort-in-rust-part-1-3mcb) we discussed traits, type-level number representation, and implementation of basic type-level computations. The topic of this article is type-level lists. Make some tea or coffee and let's dive into the details!
 
-![Rust-chan UwU](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cfu16rhpxitb5hlza9tv.jpeg) Image source: [link](https://twitter.com/maiRandomness/status/1011951419228852224?s=20&t=X-E0v8wIzSATDxXeNEmZZQ)
+![Rust-chan UwU](/cfu16rhpxitb5hlza9tv.jpeg) Image source: [link](https://twitter.com/maiRandomness/status/1011951419228852224?s=20&t=X-E0v8wIzSATDxXeNEmZZQ)
 
 ## Type-level lists
 
@@ -58,7 +58,7 @@ Let's define the type alias:
 type Prepend<N, L> = <L as ComputePrepend<N>>::Output;
 ```
 and test it:
-![prepending demo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gnwjft9wgkix90yky87z.png)
+![prepending demo](/gnwjft9wgkix90yky87z.png)
 
 The compiler inferred `Cons<Zero, Cons<Succ<Zero>, Nil>>` for us, great! Now we have a basic understanding of numbers, lists, and trait multidispatching. We can use it to write the rest of helper traits for our bubble sort algorithm. But first, let's define the algorithm itself.
 
