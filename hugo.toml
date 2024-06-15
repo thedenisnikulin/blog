@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://thedenisnikulin.github.io/blog'
 relativeURLs = true
 languageCode = 'en-us'
 title = '🦆✨tinyblog'
