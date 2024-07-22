@@ -2,7 +2,7 @@
 
 Hello everyone! In the [previous post from this series](https://dev.to/thedenisnikulin/type-level-bubble-sort-in-rust-part-1-3mcb) we discussed traits, type-level number representation, and implementation of basic type-level computations. The topic of this article is type-level lists. Make some tea or coffee and let's dive into the details!
 
-![Rust-chan UwU](/static/cfu16rhpxitb5hlza9tv.jpeg) Image source: [link](https://twitter.com/maiRandomness/status/1011951419228852224?s=20&t=X-E0v8wIzSATDxXeNEmZZQ)
+![Rust-chan UwU](/blog/static/cfu16rhpxitb5hlza9tv.jpeg) Image source: [link](https://twitter.com/maiRandomness/status/1011951419228852224?s=20&t=X-E0v8wIzSATDxXeNEmZZQ)
 
 ## Type-level lists
 
@@ -55,7 +55,7 @@ type Prepend<N, L> = <L as ComputePrepend<N>>::Output;
 ```
 and test it:
 
-![prepending demo](/static/gnwjft9wgkix90yky87z.png)
+![prepending demo](/blog/static/gnwjft9wgkix90yky87z.png)
 
 The compiler inferred `Cons<Zero, Cons<Succ<Zero>, Nil>>` for us, great! Now we have a basic understanding of numbers, lists, and trait multidispatching. We can use it to write the rest of helper traits for our bubble sort algorithm. But first, let's define the algorithm itself.
 
@@ -239,7 +239,7 @@ As I know, there isn't a way to specify an implied trait bound (that is, we know
 
 ## Testing
 
-![Bubble sort testing](/static/4aoi43ihq8hmoymm7oys.png)
+![Bubble sort testing](/blog/static/4aoi43ihq8hmoymm7oys.png)
 
 The computed natural number types were expanded, but you can see that the list became sorted (the `N1`, `N2` types are just aliases for `Succ<Zero>` and `Succ<Succ<Zero>>`).
 

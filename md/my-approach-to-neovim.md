@@ -20,10 +20,10 @@ I really like the way keymaps are organized in Helix. So my keymaps are organize
 Basically, I have 2 types (in Helix they are called "modes") of keymaps - `goto` and `space` keymaps. Goto are those keymaps which make you jump somewhere, like "Go to definition", "Go to next buffer", etc. Space are general purpose (space because it's the leader key).
 
 My space keymaps (not exhaustive):
-![My space keymaps (not exhaustive)](/static/8eqmtlv5iecb07emovmv.png)
+![My space keymaps (not exhaustive)](/blog/static/8eqmtlv5iecb07emovmv.png)
 
 My goto keymaps:
-![My goto keymaps](/static/vx1pgnrs8xvc10f13rlz.png)
+![My goto keymaps](/blog/static/vx1pgnrs8xvc10f13rlz.png)
 
 ## 2. Much of Telescope
 You can use Telescope for so much of things! File browser, notification history, keymaps browser, filetypes picker, diagnostics, git, DAP command picker, and so on. It's a such fundamental tool that I can't imagine using Neoivm without it.
@@ -31,13 +31,13 @@ You can use Telescope for so much of things! File browser, notification history,
 It just fits so good with Neovim. I don't really like split windows because they are somewhat clumsy in terminal editors, that's why I don't have `nerdtree` and don't use `nvim-dap-ui`: I find such "util splits" not so pleasant to work with. Telescope file browser and `dap.ui.widgets` are just much better (though the latter is not Telescope, but neither is a split window). And a lot of things can be implemented with Telescope. It contributes a very huge part to overall editing experience.
 
 Telescope File browser
-![Image description](/static/xg5jl0r3cxwoeoe73y2f.png)
+![Image description](/blog/static/xg5jl0r3cxwoeoe73y2f.png)
 
 Git commits with Telescope
-![Image description](/static/10p1n4ktcj36uqbtgs2h.png)
+![Image description](/blog/static/10p1n4ktcj36uqbtgs2h.png)
 
 DAP commands with Telescope
-![Image description](/static/ufkh7oehwfkuhvxgh8hx.png)
+![Image description](/blog/static/ufkh7oehwfkuhvxgh8hx.png)
 
 
 ## 3. Enhanced movement
@@ -47,15 +47,15 @@ There's not much to say: using `leap.nvim` adds up to editing speed on mid-range
 Not related to "the approach", but made me enjoy the editor much more
 
 Normal mode commands, search, code actions at screen center with nice round corners
-![Image description](/static/z1mhxvrq68cp9oww7zb8.png)
+![Image description](/blog/static/z1mhxvrq68cp9oww7zb8.png)
 
-![Image description](/static/0c5k543n38sxnav0axhf.png)
+![Image description](/blog/static/0c5k543n38sxnav0axhf.png)
 
-![Image description](/static/6qnleduueeo9jcr1ay65.png)
+![Image description](/blog/static/6qnleduueeo9jcr1ay65.png)
 
 Pretty notifications
 
-![Image description](/static/ar49akbux5mg31a0nbeo.png)
+![Image description](/blog/static/ar49akbux5mg31a0nbeo.png)
 
 ## 5. Use other tools
 I think Neovim is a very powerful editor, but it's still and editor, and sometimes you need more than this. You have so much CLI tools, and the power of pipes, use it to complement your Neovim experience. The following are just some from the top of my head:

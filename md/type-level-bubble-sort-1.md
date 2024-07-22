@@ -9,7 +9,7 @@ Before jumping in, you may need to have a basic understanding of Rust programmin
 
 Basically, type level programming allows us to carry the computations to the compilation phase where the compiler infers relationships between types, rather than computing the values during the program runtime.
 
-![Some memes](/static/prin3njjdqf4r3zgiuaz.png)
+![Some memes](/blog/static/prin3njjdqf4r3zgiuaz.png)
 
 ## How do we express conditional logic with types?
 We will use the power of **traits**. Traits are just like interfaces in C#/Java, except that you can implement traits for existing types (so the mindset is not "a type implements this interface" but rather "there's an implementation of this trait for a type").
@@ -79,7 +79,7 @@ In order to invoke the implementation, we need to write
 ```
 which means "get an implementation of trait Compare<Zero> for Zero, and get the associated Output from it".
 
-![Inferred type](/static/lxhqoutaxdr2c1bb5gl8.png)
+![Inferred type](/blog/static/lxhqoutaxdr2c1bb5gl8.png)
 
 As you can see, the compiler inferred the exact type that we needed. We have just made a computation on type level!  
 
